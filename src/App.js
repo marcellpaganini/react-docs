@@ -1,4 +1,5 @@
 import PlayerInfo from "./PlayerInfo";
+import State from "./State";
 
 const name = "Marcell Tanure";
 
@@ -34,6 +35,7 @@ function App() {
       {formatName()}
       {printUser(user)}
       <PlayerInfo fullName={user.firstName + " " + user.lastName} age="22" nationality="American" date={formatDate(date)}/>
+      <State></State>
     </>
   );
 }
