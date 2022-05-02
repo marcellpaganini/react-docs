@@ -1,3 +1,5 @@
+import PlayerInfo from "./PlayerInfo";
+
 const name = "Marcell Tanure";
 
 const element = <h3>Hi, {name}</h3>;
@@ -9,6 +11,12 @@ const formatName = () => {
 const user = {
   firstName: "John",
   lastName: "Wayne" 
+}
+
+let date = new Date();
+
+const formatDate = (date) => {
+  return date.toDateString("MM-DD-YYYY");
 }
 
 const printUser = (user) => {
@@ -25,6 +33,7 @@ function App() {
       {element}
       {formatName()}
       {printUser(user)}
+      <PlayerInfo fullName={user.firstName + " " + user.lastName} age="22" nationality="American" date={formatDate(date)}/>
     </>
   );
 }
