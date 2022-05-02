@@ -33,8 +33,8 @@
 ### Programming Topics practiced to get things done  
 #### 1- Basic/Intermediate (React)  
 * Main Concepts  
-- [ ] Hello World    
-- [ ] Introducing JSX  
+- [x] Hello World    
+- [x] Introducing JSX  
 - [ ] Rendering Elements    
 - [ ] Components and Props  
 - [ ] State and Lifecycle  
@@ -46,6 +46,8 @@
 - [ ] Composition vs Inheritance  
 
 ### Error messages for future reference  
+❌ Warning: Functions are not valid as a React child. This may happen if you return a Component instead of ```<Component />``` from render. Or maybe you meant to call this function rather than return it.  
+**Solution** 
 ✖ Warning: Each child in a list should have a unique "key" prop.  
 **Solution**  Add a key parameter to the component ```<Todo key={todo} todo={todo} />```  
 ✖ Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?    
