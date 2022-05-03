@@ -1,5 +1,8 @@
 import PlayerInfo from "./PlayerInfo";
 import State from "./State";
+import Toggle from "./Toggle";
+import Logged from "./Logged";
+import List from "./List";
 
 const name = "Marcell Tanure";
 
@@ -36,6 +39,9 @@ function App() {
       {printUser(user)}
       <PlayerInfo fullName={user.firstName + " " + user.lastName} age="22" nationality="American" date={formatDate(date)}/>
       <State></State>
+      <Toggle></Toggle>
+      <Logged></Logged>
+      <List></List>
     </>
   );
 }

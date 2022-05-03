@@ -37,10 +37,10 @@
 - [x] Introducing JSX  
 - [x] Rendering Elements    
 - [x] Components and Props  
-- [ ] State and Lifecycle  
-- [ ] Handling Events  
-- [ ] Conditional Rendering  
-- [ ] Lists and keys  
+- [x] State and Lifecycle  
+- [x] Handling Events  
+- [x] Conditional Rendering  
+- [x] Lists and keys  
 - [ ] Forms  
 - [ ] Lifting State Up  
 - [ ] Composition vs Inheritance  
